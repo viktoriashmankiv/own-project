@@ -98,9 +98,10 @@ main section.about-us .delivery {
 }
 main section.about-us div.fri-block {
     float: left;
-    border: 1px solid black;
-    width: 270px;
-    height: 600px;
+    border: 1px solid #f3f8f0;
+    width: 323px;
+    height: 350px;
+    background-color: #f3f8f0;
 }
 main section.about-us div.fri-block h3 {
     font-family: 'Aldrich', sans-serif;
@@ -114,14 +115,15 @@ main section.about-us div.fri-block p {
 }
 main section.about-us div.creat-block {
     float: left;
-    border: 1px solid black;
-    width: 270px;
-    height: 600px;
+    border: 1px solid #f3f8f0;
+    width: 323px;
+    height: 350px;
+    background-color: #f3f8f0;
 }
 main section.about-us div.creat-block h3 {
     font-family: 'Aldrich', sans-serif;
-    font-size: 30px;
     text-align: center;
+    font-size: 30px;
 }
 main section.about-us div.creat-block p {
     font-family:'Courier Prime', monospace;
@@ -130,9 +132,10 @@ main section.about-us div.creat-block p {
 }
 main section.about-us div.deliv-block {
     float: left;
-    border: 1px solid black;
-    width: 270px;
-    height: 600px;
+    border: 1px solid #f3f8f0;
+    width: 327px;
+    height: 350px;
+    background-color: #f3f8f0;
 }
 main section.about-us div.deliv-block h3 {
   font-family: 'Aldrich', sans-serif;
@@ -143,4 +146,11 @@ main section.about-us div.deliv-block p {
     font-family:'Courier Prime', monospace;
     font-size: 25px;
     text-align: center;
+}
+main section.about-us {
+    background-color: #f3f8f0;
+}
+main article.motivation hr.mot {
+    margin-block-start: 200px;
+    margin-block-end: 200px;
 }
