@@ -189,22 +189,16 @@ footer {
     opacity: 60%;
     background-position: center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
-footer img.phone {
-    width: 30px;
-    height: 35px;
-}
-footer p {
+footer p.email {
     font-family: 'Courier Prime', monospace;
-    font-size: 15px;
+    font-size: 20px;
 }
-footer img.mail {
-    width: 30px;
-    height: 30px;
-}
-footer p.year {
-    
+footer p.phone {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
 }
