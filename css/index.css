@@ -177,26 +177,27 @@ main article.motivation p {
     font-size: 30px;
     font-family: 'Courier Prime', monospace;
 }
-main hr.second.mot {
+main hr#second {
      color:#B8D6A4;
-    margin-block-start: 30em;
-    margin-block-end: 10em;
+    margin-block-start: 2em;
     width: 850px;
     height: 2px;
+    margin-block-end: 7em;
 }
 footer {
     background-image: url(../img/organic-photography.jpg);
-    opacity: 60%;
+    opacity: 40%;
     background-position: center;
     background-size: cover;
-    min-height: 250px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 footer p.email {
     font-family: 'Courier Prime', monospace;
     font-size: 20px;
+    color: black;
 }
 footer p.phone {
     font-family: 'Courier Prime', monospace;
