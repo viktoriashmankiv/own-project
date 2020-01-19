@@ -150,7 +150,61 @@ main section.about-us div.deliv-block p {
 main section.about-us {
     background-color: #f3f8f0;
 }
-main article.motivation hr.mot {
-    margin-block-start: 200px;
-    margin-block-end: 200px;
+main hr.mot {
+    color:#B8D6A4;
+    margin-block-start: 35em;
+    width: 850px;
+    height: 2px;
+}
+main article.motivation {
+    background-image: url(../img/care.jpg);
+    opacity: 70%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main article.motivation q {
+    font-size: 45px;
+    font-family:'Courier Prime', monospace;
+    text-align: center;
+    margin-block-start: 130px;
+}
+main article.motivation p {
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+main hr.second.mot {
+     color:#B8D6A4;
+    margin-block-start: 30em;
+    margin-block-end: 10em;
+    width: 850px;
+    height: 2px;
+}
+footer {
+    background-image: url(../img/organic-photography.jpg);
+    opacity: 60%;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+footer img.phone {
+    width: 30px;
+    height: 35px;
+}
+footer p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 15px;
+}
+footer img.mail {
+    width: 30px;
+    height: 30px;
+}
+footer p.year {
+    
 }
