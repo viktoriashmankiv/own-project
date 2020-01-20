@@ -33,7 +33,10 @@ header nav .main-menu a:hover {
     border: 1px solid #B8D6A4;
     
 }
-
+header div.clock {
+    display:flex;
+    justify-content: center;
+}
 
 @media (min-width: 600px) {
     header nav {
